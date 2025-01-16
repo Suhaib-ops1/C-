@@ -28,6 +28,8 @@ namespace firsttask
 
             const int number = 11;
             Console.WriteLine (number);
+
+            string[] cars = { "BMW", "TOYOTA", "HYNDAI", "MASARATI", "AUDI" };
         }
     }
 }
