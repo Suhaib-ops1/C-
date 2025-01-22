@@ -102,8 +102,23 @@ namespace task4
             ~Student() { Console.WriteLine("You are done!"); } // created a destructor to delete all the cached data that were used in the objects
         }
 
+
+         public static void proiint()
+        {
+
+
+            for(int i =0; i< 5; i++)
+            {
+                Console.WriteLine("i = " + i);
+            }
+        }
+
+
+
         static void Main(string[] args)
         {
+            proiint();
+
             Student student = new Student(); // created an obj of the class Student that is named student 
             student.Name = "Ahmad"; // updated the intial value of the student(obj) name 
             student.Age = 22; // updated the intial value of the student(obj) Age
